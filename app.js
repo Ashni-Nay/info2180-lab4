@@ -17,8 +17,7 @@ window.onload = function(){
 		else{
 			alert("There was a problem");
 		}
-	
-	
+		
 	httpRequest.open("GET",url);
 	httpRequest.send();
 	}
