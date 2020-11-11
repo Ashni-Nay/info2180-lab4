@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>INFO2180 Lab 4</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	 <script type="text/javascript" src="app.js"></script>
+ 	<h1> Avengers Character Search </h1>
+    <main>
+        <form id="searchform" action="superheroes.php" method="GET">
+            <label class="font-size14 bold" for="query">Search by Full Name or Alias</label>
+            <br>
+            <input placeholder="eg. Captain America or Steve Rogers" type="text" name="query" id="search">
+            <button type="button" id="searchbutt">Search</button>
+        </form>
+	<h2>RESULT<h2>
+	
+        <div id="result">
+	</div>
+    </main>
+</body>
+</html>
